@@ -1,5 +1,9 @@
 package templatePattern.classes
 
+/**
+ * Create concrete classes extending the [Game] class.
+ * @author Melchior Vrolijk
+ */
 class BaseBall : Game() {
 
     override fun initialize() {

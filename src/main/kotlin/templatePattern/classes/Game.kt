@@ -1,5 +1,9 @@
 package templatePattern.classes
 
+/**
+ * Create an abstract class with a template method being final.
+ * @author Melchior Vrolijk
+ */
 abstract class Game {
 
     abstract fun initialize()
@@ -17,6 +21,4 @@ abstract class Game {
         //end game
         endPlay()
     }
-
-
 }
